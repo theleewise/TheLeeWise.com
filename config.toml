@@ -1,0 +1,60 @@
+baseurl         = "/"
+theme           = "hugo-casper-two"
+languageCode    = "en-US"
+disqusShortname = "theleewise"
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Hugo Casper Two"
+  subtitle    = "Port of Casper 2.x for Hugo"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "theleewise"
+  # fbName = "fakeghost"
+  githubName = "theleewise"
+
+  logo = "hugo-logo.png"
+  # orgName = "EM"
+  # orgWebsite = "https://www.telematika.org"
+  # orgDescription = "Here is a description placeholder for your org"
+
+  author = "Lee Wise"
+  authorAvatar = "/assets/imgs/author-profile-thumb.jpg"
+  authorLocation = "Houston, TX"
+  # authorWebsite = "https://eueung.github.io"
+  authorDescription = "Style Slinger"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "About Lee"
+  url = "/about-lee"
+  weight = 190
+
+[[menu.main]]
+  name = "Drupal"
+  url = "/tags/drupal/"
+  weight = 100
+
+[[menu.main]]
+  name = "DNN"
+  url = "/tags/dnn/"
+  weight = 100

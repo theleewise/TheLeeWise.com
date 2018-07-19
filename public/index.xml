@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 22 Apr 2018 23:11:59 -0500</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Better Bread Crumb in Drupal 8</title>
+      <link>/a-better-bread-crumb-in-drupal-8/</link>
+      <pubDate>Sun, 22 Apr 2018 23:11:59 -0500</pubDate>
+      
+      <guid>/a-better-bread-crumb-in-drupal-8/</guid>
+      <description>In Drupal 8, the default breadcrumbs will include a full path to the current page but won&amp;rsquo;t include the current page itself. Now I found a solution online that was easy enough but I had a few issues to complicate it a little.
+ I really only want this for nodes that are pages and not say events or news. Mostly because these can often times have much longer titles and would break the design to have this in the breadcrumbs I want to be able to add the necessary accessability code for this current item &amp;amp; any additional style classes.</description>
+    </item>
+    
+  </channel>
+</rss>
