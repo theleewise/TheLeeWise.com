@@ -11,7 +11,7 @@ description: "Include the current page node in the bread crumbs but only if it i
 In Drupal 8, the default breadcrumbs will include a full path to the current page but won't include the current page itself. Now I found a solution online that was easy enough but I had a few issues to complicate it a little.
 
 1. I really only want this for nodes that are pages and not say events or news. Mostly because these can often times have much longer titles and would break the design to have this in the breadcrumbs
-2. I want to be able to add the necessary accessability code for this current item & any additional style classes. 
+2. I want to be able to add the necessary accessability code for this current item & any additional style classes.
 
 To begin, we'll add a preprocess function. It will check if the current node is the `page` content type. It will also add a new property `active` to the item and then added to the bread crumb array.
 
